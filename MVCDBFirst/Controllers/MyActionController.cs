@@ -92,5 +92,15 @@ namespace MVCDBFirst.Controllers
             return View(person);
         }
 
+        public ActionResult PartialCreate()
+        {
+            return PartialView();
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
     }
 }

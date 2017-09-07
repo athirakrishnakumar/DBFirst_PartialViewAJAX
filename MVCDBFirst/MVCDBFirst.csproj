@@ -312,6 +312,8 @@
     <Content Include="Views\MyAction\SearchPartialView.cshtml" />
     <Content Include="Views\MyAction\Search.cshtml" />
     <Content Include="Views\MyAction\Details.cshtml" />
+    <Content Include="Views\MyAction\PartialCreate.cshtml" />
+    <Content Include="Views\MyAction\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
