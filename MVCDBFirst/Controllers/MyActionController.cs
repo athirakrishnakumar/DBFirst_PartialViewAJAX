@@ -97,9 +97,15 @@ namespace MVCDBFirst.Controllers
             return PartialView();
         }
 
-        public ActionResult Create()
+        public ActionResult Create(Detail per)
         {
-            return View();
+            return View(dbContext.Details);
+        }
+
+        public ActionResult Indexer()
+        {
+           
+            return PartialView();
         }
 
     }

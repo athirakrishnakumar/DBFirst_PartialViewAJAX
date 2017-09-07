@@ -1,13 +1,13 @@
-﻿@model MVCDBFirst.Models.Detail
-
+﻿
+@model IEnumerable<MVCDBFirst.Models.Detail>
 @{
     ViewBag.Title = "Create";
 }
 
 <h2>Create</h2>
 
-@{Html.RenderAction("PartialCreate","MyAction");
-}
+@*@{Html.RenderAction("PartialCreate","MyAction");
+}*@
 
 
 @*@{Html.RenderPartial("PartialCreate");
@@ -16,3 +16,7 @@
 
 @*@{Html.Partial("PartialCreate");
     }*@
+
+
+@{Html.RenderPartial("Indexer");
+    }

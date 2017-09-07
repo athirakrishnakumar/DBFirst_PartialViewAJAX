@@ -314,6 +314,7 @@
     <Content Include="Views\MyAction\Details.cshtml" />
     <Content Include="Views\MyAction\PartialCreate.cshtml" />
     <Content Include="Views\MyAction\Create.cshtml" />
+    <Content Include="Views\MyAction\Indexer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
